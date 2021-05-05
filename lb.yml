@@ -1,0 +1,12 @@
+- hosts: localhost
+  roles:
+          - ec2_host
+- hosts: tag_Name_webserver
+  remote_user: ec2-user
+  roles:
+          - web
+
+- hosts: tag_Name_lbserver
+  remote_user: ec2-user
+  roles:
+          - lbserver
