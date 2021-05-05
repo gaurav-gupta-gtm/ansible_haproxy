@@ -1,0 +1,6 @@
+---
+# vars file for webserver
+
+key_dest: "/root/.ssh/key.pem"
+region: "ap-south-1"
+image_id: "ami-0ebc1ac48dfd14136"
