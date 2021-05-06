@@ -1,4 +1,5 @@
-# Ansible HAProxy Setup
+Ansible HAProxy Setup
+=====================
 
 Configure HAProxy and Apache Server over AWS RedHat using Ansible Roles and Ansible Plugins
 
